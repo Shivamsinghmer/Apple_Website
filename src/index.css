@@ -42,6 +42,7 @@ canvas {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
   transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+  border: 1px solid #111;
 }
 
 .btn:hover {
@@ -192,7 +193,7 @@ canvas {
   margin-left: 1rem;
   padding: 1rem;
   border-radius: 9999px;
-  background-color: #d1d5db; /* Tailwind's bg-gray-300 */
+  background-color: #616366; /* Tailwind's bg-gray-300 */
   backdrop-filter: blur(10px);
   display: flex;
   align-items: center;
@@ -244,8 +245,8 @@ canvas {
 .hiw-video {
   position: absolute;
   width: 95%;
+  border-radius: 20px;
   height: 90%;
-  border-radius: 56px;
   overflow: hidden;
 }
 
